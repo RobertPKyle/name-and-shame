@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "name": "Acme Corp",
+    "name": "Robert Half",
     "tags": ["Ghosting", "Slow response time"]
   },
   {
     "id": 2,
-    "name": "TechGiant Inc",
-    "tags": ["Fake offers", "Lack of transparency"]
+    "name": "United Heath",
+    "tags": ["Ghosting", "Slow response time"]
   },
   {
     "id": 3,
-    "name": "StartupXYZ",
+    "name": "Lumenalta",
     "tags": ["Ghosting", "More than 3 interviews"]
   },
   {
     "id": 4,
-    "name": "MegaCorp Solutions",
-    "tags": ["More than 3 interviews", "Slow response time", "Lack of transparency"]
+    "name": "Tata Consulting Services",
+    "tags": ["More than 3 interviews", "Rude"]
   },
   {
     "id": 5,
-    "name": "Innovate Labs",
-    "tags": ["Lowballing", "Lack of transparency"]
+    "name": "Wiraa",
+    "tags": ["Lack of transparency"]
   },
   {
     "id": 6,
-    "name": "Global Dynamics",
-    "tags": ["Ghosting", "Rude"]
+    "name": "NBC Universal",
+    "tags": ["Ghosting"]
   }
 ]

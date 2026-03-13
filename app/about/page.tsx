@@ -4,7 +4,7 @@ export default function AboutPage() {
       <div className="mb-10">
         <h1 className="text-3xl font-bold text-white mb-2">About &amp; Resources</h1>
         <p className="text-zinc-400">
-          What this site is, why it exists, and how to protect yourself during the job search.
+          What this site is and how you can contribute!
         </p>
       </div>
 
@@ -29,96 +29,15 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Tips */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
-          Protecting Yourself During the Job Search
-        </h2>
-        <ul className="space-y-3 text-sm text-zinc-400">
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Set a follow-up deadline.</strong> If a company says they&apos;ll
-              get back to you in a week and two weeks pass, send one follow-up email. If no response, move on.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Research before applying.</strong> Check Glassdoor, Blind, and
-              Reddit for reports of poor hiring experiences before investing time in a lengthy process.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Never stop applying.</strong> Keep your pipeline full.
-              Don&apos;t put all your energy into one opportunity until you have a signed offer.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Document everything.</strong> Keep notes on who you spoke to,
-              what was promised, and key dates. This protects you and helps others if you share your experience.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Share your experience.</strong> Leave reviews on Glassdoor and
-              LinkedIn. Your account might save someone else months of wasted time.
-            </span>
-          </li>
-        </ul>
-      </section>
-
-      {/* Resources */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
-          External Resources
-        </h2>
-        <ul className="space-y-3 text-sm text-zinc-400">
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Glassdoor</strong> — Company reviews including interview
-              experience reports from real candidates.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Blind</strong> — Anonymous professional community with candid
-              discussion about company culture and hiring practices.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">r/cscareerquestions</strong> — Reddit community for software
-              engineers sharing hiring experiences and advice.
-            </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-red-500 font-bold mt-0.5">→</span>
-            <span>
-              <strong className="text-zinc-200">Levels.fyi</strong> — Compensation data and company info to
-              help you evaluate offers and negotiate.
-            </span>
-          </li>
-        </ul>
-      </section>
-
       {/* Contribute */}
       <section className="mb-12">
         <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
-          Add a Company
+          How to add a Company
         </h2>
         <div className="text-zinc-400 space-y-3 text-sm leading-relaxed">
           <p>
             This site is open source. Companies are stored in a simple JSON file — no coding experience required
-            to add one. Here&apos;s how:
+            to add one. Add as many companies as you want. Here&apos;s how:
           </p>
           <ol className="space-y-2 list-none">
             <li className="flex gap-3">
@@ -140,9 +59,8 @@ export default function AboutPage() {
               <span className="text-red-500 font-bold shrink-0">2.</span>
               <span>
                 Open <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">data/companies.json</code> and
-                add an entry with a <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">name</code>,{" "}
-                <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">tags</code>, and{" "}
-                <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">notes</code>.
+                add an entry with a <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">name</code> and{" "}
+                <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">tags</code>.
               </span>
             </li>
             <li className="flex gap-3">
@@ -150,6 +68,27 @@ export default function AboutPage() {
               <span>Submit a pull request. It will be reviewed before going live.</span>
             </li>
           </ol>
+        </div>
+      </section>
+
+      {/* Support */}
+      <section className="mb-12">
+        <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
+          Support the Site
+        </h2>
+        <div className="text-zinc-400 space-y-3 text-sm leading-relaxed">
+          <p>
+            This site is free, ad-free, and community-driven. If it&apos;s been useful to you,
+            consider buying me a coffee — it helps keep the lights on.
+          </p>
+          <a
+            href="https://buymeacoffee.com/retrorobert"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-1 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-sm px-5 py-2.5 rounded transition-colors"
+          >
+            Buy me a coffee
+          </a>
         </div>
       </section>
 
