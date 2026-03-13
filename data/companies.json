@@ -28,5 +28,30 @@
     "id": 6,
     "name": "NBC Universal",
     "tags": ["Ghosting"]
-  }
+  },
+    {
+    "id": 7,
+    "name": "Quants Logistics Inc",
+    "tags": ["Fake offers"]
+  },
+  {
+    "id": 8,
+    "name": "SilverCity Riverport Cinemas",
+    "tags": ["Lack of transparency"]
+  },
+  {
+    "id": 9,
+    "name": "Planet Lazer Games Inc",
+    "tags": ["Ghosting"]
+  },
+  {
+    "id": 10,
+    "name": "Little Caesars",
+    "tags": ["Fake offers", "Rude"]
+  },
+    {
+    "id": 11,
+    "name": "Lordco Auto Parts",
+    "tags": ["Slow response time"]
+  },
 ]
