@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "Acme Corp",
-    "tags": ["Ghosted After Interview", "No Response", "Long Process"],
+    "tags": ["Ghosting", "Slow response time"],
     "notes": "Applied, had 3 rounds of interviews, then complete silence for 6+ weeks."
   },
   {
     "id": 2,
     "name": "TechGiant Inc",
-    "tags": ["Rescinded Offer", "No Response"],
+    "tags": ["Fake offers", "Lack of transparency"],
     "notes": "Offer rescinded via automated email with no explanation given."
   },
   {
     "id": 3,
     "name": "StartupXYZ",
-    "tags": ["Ghosted After Interview", "No Feedback"],
-    "notes": "Final round interview, told they'd follow up within a week. Never heard back."
+    "tags": ["Ghosting", "More than 3 interviews"],
+    "notes": "Final round interview after 5 rounds total, told they'd follow up within a week. Never heard back."
   },
   {
     "id": 4,
     "name": "MegaCorp Solutions",
-    "tags": ["Long Process", "No Feedback", "No Response"],
-    "notes": "6-month interview process with 8 rounds. Disappeared after final round."
+    "tags": ["More than 3 interviews", "Slow response time", "Lack of transparency"],
+    "notes": "6-month process with 8 rounds. No clear timeline communicated and disappeared after the final round."
   },
   {
     "id": 5,
     "name": "Innovate Labs",
-    "tags": ["Ghosted After Interview", "Rejected Without Feedback"],
-    "notes": "Rejected with a form email after completing a 4-hour take-home assignment."
+    "tags": ["Lowballing", "Lack of transparency"],
+    "notes": "Completed a 4-hour take-home only to receive an offer 40% below the posted range with no room to negotiate."
   },
   {
     "id": 6,
     "name": "Global Dynamics",
-    "tags": ["No Response", "Long Process"],
-    "notes": "Applied twice over two years — zero response both times despite being highly qualified."
+    "tags": ["Ghosting", "Rude"],
+    "notes": "Recruiter was dismissive during the screen and the company never responded to two follow-up emails."
   }
 ]

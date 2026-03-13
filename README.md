@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Name & Shame
 
-## Getting Started
+A community-driven site that lists companies known for ghosting job candidates and other unprofessional hiring behavior.
 
-First, run the development server:
+## How to Add a Company
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Companies are stored in [`data/companies.json`](./data/companies.json). To add one:
+
+1. **Fork** this repository
+2. **Edit** `data/companies.json` and add a new entry (see format below)
+3. **Open a pull request** — it will be reviewed before going live
+
+### Entry Format
+
+```json
+{
+  "id": 7,
+  "name": "Company Name",
+  "tags": ["Ghosting", "Lowballing"],
+  "notes": "Brief description of what happened."
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `id` — increment from the last entry in the file
+- `name` — full company name
+- `tags` — one or more tags from the list below (must match exactly)
+- `notes` — a short, factual description of the experience
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Available Tags
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Tag | Description |
+|-----|-------------|
+| `Ghosting` | Company stopped responding entirely with no explanation |
+| `Slow response time` | Consistently slow to reply, leaving candidates waiting weeks |
+| `More than 3 interviews` | Excessive interview rounds beyond a reasonable process |
+| `Fake offers` | Offer extended then rescinded, or offer was misleading |
+| `Lack of transparency` | Vague about role, timeline, compensation, or process |
+| `Rude` | Disrespectful or dismissive behavior toward candidates |
+| `Lowballing` | Compensation offer significantly below market rate |
 
-## Learn More
+Please only use tags from this list so filtering works correctly on the site.
 
-To learn more about Next.js, take a look at the following resources:
+## Running Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js 16](https://nextjs.org) (App Router)
+- TypeScript
+- Tailwind CSS v4
