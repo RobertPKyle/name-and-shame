@@ -16,15 +16,13 @@ Companies are stored in [`data/companies.json`](./data/companies.json). To add o
 {
   "id": 7,
   "name": "Company Name",
-  "tags": ["Ghosting", "Lowballing"],
-  "notes": "Brief description of what happened."
+  "tags": ["Ghosting", "Lowballing"]
 }
 ```
 
 - `id` — increment from the last entry in the file
 - `name` — full company name
 - `tags` — one or more tags from the list below (must match exactly)
-- `notes` — a short, factual description of the experience
 
 ### Available Tags
 

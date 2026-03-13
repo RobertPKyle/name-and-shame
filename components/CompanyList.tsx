@@ -6,7 +6,6 @@ type Company = {
   id: number;
   name: string;
   tags: string[];
-  notes: string;
 };
 
 const ALL_TAGS = [
@@ -107,8 +106,7 @@ export default function CompanyList({ companies }: { companies: Company[] }) {
               key={company.id}
               className="bg-zinc-900 border border-zinc-800 rounded-lg p-5 hover:border-zinc-600 transition-colors"
             >
-              <h2 className="text-lg font-semibold text-white mb-2">{company.name}</h2>
-              <p className="text-zinc-400 text-sm mb-4">{company.notes}</p>
+              <h2 className="text-lg font-semibold text-white mb-3">{company.name}</h2>
               <div className="flex flex-wrap gap-2">
                 {company.tags.map((tag) => (
                   <Tag key={tag} label={tag} />
