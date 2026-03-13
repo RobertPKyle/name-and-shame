@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
         <main className="max-w-5xl mx-auto px-4 py-10">
           {children}
         </main>
+        <Analytics />
         <footer className="border-t border-zinc-800 mt-20">
           <div className="max-w-5xl mx-auto px-4 py-6 text-center text-zinc-600 text-sm">
             Name &amp; Shame — holding companies accountable for ghosting candidates.
