@@ -49,9 +49,9 @@
     "name": "Little Caesars",
     "tags": ["Fake offers", "Rude"]
   },
-    {
+  {
     "id": 11,
     "name": "Lordco Auto Parts",
     "tags": ["Slow response time"]
-  },
+  }
 ]
