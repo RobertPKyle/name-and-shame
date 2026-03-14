@@ -32,6 +32,14 @@ export default function RootLayout({
                 About &amp; Resources
               </Link>
             </div>
+            <div className="ml-auto">
+              <Link
+                href="/submit"
+                className="text-sm bg-red-600 hover:bg-red-500 text-white font-medium px-4 py-1.5 rounded transition-colors"
+              >
+                + Submit a Company
+              </Link>
+            </div>
           </div>
         </nav>
         <main className="max-w-5xl mx-auto px-4 py-10">
