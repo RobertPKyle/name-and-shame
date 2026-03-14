@@ -29,49 +29,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Contribute */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
-          How to add a Company
-        </h2>
-        <div className="text-zinc-400 space-y-3 text-sm leading-relaxed">
-          <p>
-            This site is open source. Companies are stored in a simple JSON file — no coding experience required
-            to add one. Add as many companies as you want. Here&apos;s how:
-          </p>
-          <ol className="space-y-2 list-none">
-            <li className="flex gap-3">
-              <span className="text-red-500 font-bold shrink-0">1.</span>
-              <span>
-                Go to the{" "}
-                <a
-                  href="https://github.com/RobertPKyle/name-and-shame"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white underline hover:text-red-400 transition-colors"
-                >
-                  GitHub repository
-                </a>{" "}
-                and fork it.
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-red-500 font-bold shrink-0">2.</span>
-              <span>
-                Open <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">data/companies.json</code> and
-                add an entry with a <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">name</code> and{" "}
-                <code className="bg-zinc-800 px-1 py-0.5 rounded text-zinc-300">tags</code>.
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-red-500 font-bold shrink-0">3.</span>
-              <span>Submit a pull request. It will be reviewed before going live.</span>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      {/* Support */}
+{/* Support */}
       <section className="mb-12">
         <h2 className="text-xl font-semibold text-white mb-4 border-b border-zinc-800 pb-2">
           Support the Site
