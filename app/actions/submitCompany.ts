@@ -7,8 +7,6 @@ export type SubmitState = {
   message: string;
 };
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function submitCompany(
   _prev: SubmitState,
   formData: FormData
@@ -23,6 +21,8 @@ export async function submitCompany(
   if (tags.length === 0) {
     return { status: "error", message: "Please select at least one tag." };
   }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
     await resend.emails.send({
