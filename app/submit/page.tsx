@@ -11,6 +11,10 @@ const ALL_TAGS = [
   "Lack of transparency",
   "Rude",
   "Lowballing",
+  "Requires take home assessment",
+  "Requires unpaid work",
+  "Lies about remote work",
+  "Fake company",
 ];
 
 const initial: SubmitState = { status: "idle", message: "" };

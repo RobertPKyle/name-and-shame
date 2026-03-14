@@ -16,16 +16,24 @@ const ALL_TAGS = [
   "Lack of transparency",
   "Rude",
   "Lowballing",
+  "Requires take home assessment",
+  "Requires unpaid work",
+  "Lies about remote work",
+  "Fake company",
 ];
 
 const TAG_COLORS: Record<string, string> = {
-  "Ghosting":               "bg-red-900/50 text-red-300 border-red-800",
-  "Slow response time":     "bg-orange-900/50 text-orange-300 border-orange-800",
-  "More than 3 interviews": "bg-yellow-900/50 text-yellow-300 border-yellow-800",
-  "Fake offers":            "bg-pink-900/50 text-pink-300 border-pink-800",
-  "Lack of transparency":   "bg-purple-900/50 text-purple-300 border-purple-800",
-  "Rude":                   "bg-rose-900/50 text-rose-300 border-rose-800",
-  "Lowballing":             "bg-blue-900/50 text-blue-300 border-blue-800",
+  "Ghosting":                       "bg-red-900/50 text-red-300 border-red-800",
+  "Slow response time":             "bg-orange-900/50 text-orange-300 border-orange-800",
+  "More than 3 interviews":         "bg-yellow-900/50 text-yellow-300 border-yellow-800",
+  "Fake offers":                    "bg-pink-900/50 text-pink-300 border-pink-800",
+  "Lack of transparency":           "bg-purple-900/50 text-purple-300 border-purple-800",
+  "Rude":                           "bg-rose-900/50 text-rose-300 border-rose-800",
+  "Lowballing":                     "bg-blue-900/50 text-blue-300 border-blue-800",
+  "Requires take home assessment":  "bg-amber-900/50 text-amber-300 border-amber-800",
+  "Requires unpaid work":           "bg-red-900/50 text-red-300 border-red-800",
+  "Lies about remote work":         "bg-cyan-900/50 text-cyan-300 border-cyan-800",
+  "Fake company":                   "bg-zinc-800/50 text-zinc-300 border-zinc-600",
 };
 
 function Tag({ label }: { label: string }) {
