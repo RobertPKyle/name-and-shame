@@ -28,5 +28,25 @@
     "id": 6,
     "name": "NBC Universal",
     "tags": ["Ghosting"]
+  },
+{
+    "id": 7,
+    "name": "Honeywell",
+    "tags": ["Ghosting"]
+  },
+{
+    "id": 8,
+    "name": "Vee",
+    "tags": ["Requires unpaid work"]
+  },
+{
+    "id": 9,
+    "name": "Push operations",
+    "tags": ["Lack of transparency"]
+  },
+{
+    "id": 10,
+    "name": "MapLarge",
+    "tags": ["Requires Unpaid Work"]
   }
 ]
